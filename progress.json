@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T08:51:48.375Z",
+  "generated_at": "2026-09-25T08:52:01.925Z",
   "items": {
     "math:7": {
       "kind": "math",
@@ -133,6 +133,19 @@
       "path": "problems/0001-matrix-vector-dot-product",
       "first_solved_at": "2026-09-25T08:51:47.763Z",
       "last_pushed_at": "2026-09-25T08:51:47.763Z",
+      "language": "python",
+      "lines": 18
+    },
+    "problem:9": {
+      "kind": "problem",
+      "id": "9",
+      "title": "Matrix times Matrix ",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/9",
+      "path": "problems/0009-matrix-times-matrix",
+      "first_solved_at": "2026-09-25T08:52:00.766Z",
+      "last_pushed_at": "2026-09-25T08:52:00.766Z",
       "language": "python",
       "lines": 18
     }
