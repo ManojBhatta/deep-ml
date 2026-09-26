@@ -16,12 +16,14 @@ def is_linearly_independent(vectors: list[list[float]]) -> bool:
         return True
     
     matrix = np.array(vectors)
-    m, n = matrix.shape
+    num_vectors, dim = matrix.shape
+
+    if num_vectors > dim:
+        return  False
 
     rank = np.linalg.matrix_rank(matrix)
 
-    if rank == m:
+    if rank == num_vectors:
         return  True
     else:
         return False
-    pass
