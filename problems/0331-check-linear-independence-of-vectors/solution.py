@@ -27,3 +27,4 @@ def is_linearly_independent(vectors: list[list[float]]) -> bool:
         return  True
     else:
         return False
+    pass
