@@ -12,7 +12,7 @@ def cross_entropy_derivative(logits: list[float], target: int) -> list[float]:
 	"""
 	# Your code here
 	z = np.array(logits)
-	# z -= np.max(logits)
+	z -= np.max(logits)
 
 	s = np.exp(z) / np.sum(np.exp(z))
 
